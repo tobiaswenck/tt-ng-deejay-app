@@ -1,0 +1,42 @@
+@import "../../definitions";
+
+.wrapper {
+    height: 50px;
+    width: 445px;
+    text-align: center;
+    color: black !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    height: 100%;
+    width: 89px;
+    color: $white;
+}
+
+.svg-inline--fa {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.item-1 {
+    background: $green;
+}
+
+.item-2 {
+    background: $darkGreen;
+}
+
+.item-3 {
+    background: $green;
+}
+
+.item-4 {
+    background: $darkGreen;
+}
+
+.item-5 {
+    background: $green;
+}

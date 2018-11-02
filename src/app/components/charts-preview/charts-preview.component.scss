@@ -1,0 +1,52 @@
+@import "../../definitions";
+
+.wrapper {
+    height: 400px;
+    width: 210px;
+    background: $white;
+    //margin-left:200px;
+    //margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.heading {
+    text-align: left !important;
+    height: 50px !important;
+    padding-left: 10px;
+    width: 200px !important;
+    //padding-left: 20px;
+    //width: 100% !important;
+}
+.item {
+    height: 70px;
+    width: 100%;
+    background: $green;
+    color: $white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.chart-list {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+.text {
+    width: 140px;
+    height: 70px;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    //display: block;   
+}
+.pic {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background: #eaeaea;
+}
+
+.pic > img {
+    width: 100%;
+    height: 100%;
+}

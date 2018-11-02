@@ -1,0 +1,64 @@
+@import "../../definitions";
+
+.wrapper {
+    height: 80px;
+    width: 445px;
+    //background: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    height: 80px;
+    //width: 300px;
+}
+
+.left-inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 205px;
+    height: 80px;
+    margin: 0 !important;
+}
+
+.right-inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 80px;
+    margin: 0;
+}
+
+.footer-menu-item-left {
+    width: 205px;
+    height: 80px;
+    text-align: left;
+    font-size: 12px;
+    background: $darkGreen;
+    color: $white;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-menu-item-right {
+    width: 80px;
+    height: 80px;
+}
+
+.instagram {
+    background: $green;
+}
+
+.facebook {
+    background: $darkGreen;
+}
+
+.twitch {
+    background: $green;
+}
+
+.svg-inline--fa {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}

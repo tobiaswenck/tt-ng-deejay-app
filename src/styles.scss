@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/definitions";
+
+/*
+ *  font-family: 'Indie Flower', cursive;
+ *  font-family: 'Raleway', sans-serif;
+ */
+
+body {
+    background: $background;
+    //display: grid;
+    //grid-template-areas: 
+    //                    'follow follow follow player player player profile profile profile profile'
+    //                    'follow follow follow charts charts new new new new new';
+    font-family: 'Indie Flower', cursive;
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: space-around;
+    
+}
+
+.wrapper {
+    display: grid;
+    
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr; 
+    //grid-gap: 60px;
+    //grid-row-gap: 15px;
+    //grid-column-gap: 15px;
+    //margin-top: 30px;
+}
+
+.left-inner-wrapper {
+    margin-right: -30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-inner-wrapper {
+    display: grid;
+    grid-template-rows: 315px 530px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 15px;
+}
+
+.menu {
+    margin-bottom: 15px;
+    height: 50px;
+    width: 445px;
+    background: #eaeaea;
+}
+
+.footer {
+    margin-top: 15px;
+    height: 80px;
+    width: 445px;
+    background: #eaeaea;
+}
+
+.following {
+    width: 445px;
+    height: 555px;
+    background: #eaeaea;
+    //grid-row: 1/ span 2;
+}
+
+.player {
+    width: 310px;
+    height: 300px;
+    background: #eaeaea;
+    //grid-column: 2;
+    //grid-row: 1;
+    margin-right: 0px;
+}
+
+.profile {
+    width: 640px;
+    height: 300px;
+    background: #eaeaea;
+    //grid-column: 3;
+    //grid-row: 1;
+}
+
+.charts {
+    width: 210px;
+    height: 400px;
+    background: #eaeaea;
+    //grid-column: 2;
+    //grid-row: 2;
+}
+
+.new-artists {
+    width: 740px;
+    height: 400px;
+    background: #eaeaea;
+    //grid-column: 3;
+    //grid-row: 2;
+    margin-left: -100px;
+}
